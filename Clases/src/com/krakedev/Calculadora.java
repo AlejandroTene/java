@@ -31,8 +31,9 @@ public class Calculadora {
 		return promedio;
 	}
 	
+	public void mostrarMensaje() {
+		System.out.println("Ahorita no joven, sali al almuerzo. Regreso en 15 minutos");
+	}
 	
-	
-
 
 }
