@@ -3,11 +3,11 @@ package com.krakedev;
 public class TestAuto {
 
 	public static void main(String[] args) {
-		Auto auto1=new Auto();
-		Auto auto2=new Auto();
+		Auto auto1=new Auto("KIA", 2018, 113000.00);
+		Auto auto2=new Auto("Volvo", 2016, 10400.00);
 		
 		
-		//modifico atributos auto1
+		/*//modifico atributos auto1
 		auto1.setMarca("KIA"); 
 		auto1.setAnio(2018); 
 		auto1.setPrecio(113000.00); 
@@ -15,7 +15,7 @@ public class TestAuto {
 		//modifico atributos auto2
 		auto2.setMarca("Volvo");
 		auto2.setAnio(2016); 
-		auto2.setPrecio(10400.00); 
+		auto2.setPrecio(10400.00); */
 		
 		
 		

@@ -3,9 +3,9 @@ package com.krakedev;
 public class TestCuadrado {
 
 	public static void main(String[] args) {
-		Cuadrado c1=new Cuadrado();
-		Cuadrado c2=new Cuadrado();
-		Cuadrado c3=new Cuadrado();
+		Cuadrado c1=new Cuadrado(3);
+		Cuadrado c2=new Cuadrado(8);
+		Cuadrado c3=new Cuadrado(6);
 		
 		double areaC1;
 		double areaC2;
@@ -14,9 +14,9 @@ public class TestCuadrado {
 		double perimetroC2;
 		double perimetroC3;
 		
-		c1.setLado(3);
+		/*c1.setLado(3);
 		c2.setLado(8);
-		c3.setLado(6);
+		c3.setLado(6);*/
 	
 		areaC1=c1.calcularArea();
 		areaC2=c2.calcularArea();
